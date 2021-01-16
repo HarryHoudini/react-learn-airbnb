@@ -1,11 +1,12 @@
 
 import React from 'react'
 import './Home.css'
+import Banner from '../banner/Banner'
 
 function Home() {
     return (
         <div className='home'>
-            <h1></h1>
+            <Banner></Banner>
         </div>
     )
 }
